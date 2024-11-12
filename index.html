@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM QOUTE</title>
+
+   <!-- Font Awesome -->
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+   />
+   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+   <!-- Main CSS File -->
+   <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+    <div id="qoute" class="container d-flex align-items-center justify-content-center flex-column">
+        <h1>Quote of the Day</h1>
+        <p class="fs-2 fw-medium mt-2">Press the button below to recieve a random quote!</p>
+        <button onclick="GenerateQuote()">New Quote</button>
+        <p id="Quote" ></p>
+        <h2 id="Author" ></h2>
+    </div>
+   
+  
+      <!-- Main Js File -->
+      <script src="js/main.js"></script>   
+</body>
+</html>

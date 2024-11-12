@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-align: center;
+    height: 100vh;
+    font-family: "Geist", sans-serif;
+}
+
+ p{
+    font-size: 2rem;
+    margin-block:2rem;
+}
+#qoute button{
+
+    width: 250px;
+    height: 550px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    
+}
+#qoute button:hover{
+    background-color: green;
+}
+
+
+h1 {
+
+    font-size: 100px;
+    font-family: "Anton", sans-serif;
+    display: block;
+    
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+
+
+
+
